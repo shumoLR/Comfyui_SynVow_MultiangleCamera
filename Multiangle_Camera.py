@@ -48,7 +48,7 @@ class SynvowMultiangleCameraNode:
     RETURN_TYPES = ("STRING", "IMAGE")
     RETURN_NAMES = ("prompt", "image")
     FUNCTION = "generate_prompt"
-    CATEGORY = "💫SynVow/image"
+    CATEGORY = "💫SynVow/Image"
     DESCRIPTION = "3D camera angle control node for multi-angle prompt generation"
 
     def generate_prompt(self, horizontal_angle, vertical_angle, zoom,
@@ -155,3 +155,4 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "SynvowMultiangleCameraNode": "Synvow Multiangle Camera",
 }
+
